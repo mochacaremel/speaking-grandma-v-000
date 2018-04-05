@@ -13,10 +13,8 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma
    shout(string){
- +  return string.toUpperCase()
- +};
- +
- +shout("hello")
+   return string.toUpperCase(
+ shout("hello")
  end
  # +function logShout(string){
  # +  return console.log(string.toUpperCase())
